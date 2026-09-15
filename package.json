@@ -1,0 +1,33 @@
+{
+  "name": "shadow-awakening-studio",
+  "version": "0.1.0",
+  "description": "AI-assisted 2D anime drawing and frame-by-frame animation studio",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3",
+    "zustand": "^4.4.2",
+    "lucide-react": "^0.263.1",
+    "konva": "^9.2.0",
+    "react-konva": "^18.2.10",
+    "framer-motion": "^10.16.4",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@types/node": "^20.9.0",
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "tailwindcss": "^3.3.5",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
+  }
+}
